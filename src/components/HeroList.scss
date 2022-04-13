@@ -1,0 +1,10 @@
+.person-list {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 40%;
+  margin: 20px;
+
+  .list {
+    height: calc(100vh - 300px);
+    overflow-y: scroll;
+  }
+}
